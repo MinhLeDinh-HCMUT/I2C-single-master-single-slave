@@ -1,7 +1,8 @@
 /*
- * File:   master.c
- * Author: MinhLe
+ * File:   Master_program.c
+ * Author: MinhLeDinh
  */
+
 #include <xc.h>
 #define _XTAL_FREQ 4000000 
 #define I2C_BaudRate 100000 
