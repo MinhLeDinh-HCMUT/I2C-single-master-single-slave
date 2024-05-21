@@ -3,6 +3,8 @@
 - PIC16F877
 - PIC16F877A
 - PIC16F887
+## IDE
+- MPLAB X IDE (XC8 Compiler)
 ## Task
 - Utilize Special Function Registers (SFR), do not use built-in functions.
 - When the button on RB7 pin of the Master is pressed, a 4-digit float is sent to the Slave from the Master.
