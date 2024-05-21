@@ -1,14 +1,14 @@
 /*
- * File:   slave.c
- * Author: MinhLe
+ * File:   Slave_program.c
+ * Author: MinhLeDinh
  */
+
 #include <xc.h>
 #define _XTAL_FREQ 4000000 
 int charcount=0,index=0;
 char str[10];
 short clearBuffer;
 int datareturn[6]={53,54,46,0,0,13};
-
 
 void I2C_Slave_Init(unsigned char address)
 {
