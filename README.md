@@ -1,4 +1,8 @@
 # Single master - single slave I2C communication on PIC microcontroller
+## PIC microcontroller that can be used
+- PIC16F877
+- PIC16F877A
+- PIC16F887
 ## Task
 - Utilize Special Function Registers (SFR), do not use built-in functions.
 - When the button on RB7 pin of the Master is pressed, a 4-digit float is sent to the Slave from the Master.
